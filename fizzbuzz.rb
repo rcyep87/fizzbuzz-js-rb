@@ -19,7 +19,3 @@ def fizzbuzz(n)
   return 'FizzBuzz' if (n % 15) == 0
   return n
 end
-
-puts run_fb(5)
-puts run_fb(6)
-puts run_fb(8)
