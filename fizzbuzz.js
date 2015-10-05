@@ -30,3 +30,5 @@ var age_check = function(age) {
     console.log('proceed');
   }
 };
+
+// Pigatize
