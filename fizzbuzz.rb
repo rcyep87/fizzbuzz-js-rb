@@ -6,16 +6,20 @@ def run_fb(n)
 end
 
 def fizz(n)
-  return 'Fizz' if (n % 3).zero?
+  return 'Fizz' if (n % 3) == 0
   return n
 end
 
 def buzz(n)
-  return 'Buzz' if (n % 5).zero?
+  return 'Buzz' if (n % 5) == 0
   return n
 end
 
 def fizzbuzz(n)
-  return 'FizzBuzz' if (n % 15).zero?
+  return 'FizzBuzz' if (n % 15) == 0
   return n
 end
+
+puts run_fb(5)
+puts run_fb(6)
+puts run_fb(8)
