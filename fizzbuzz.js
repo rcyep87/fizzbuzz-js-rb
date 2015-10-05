@@ -5,16 +5,20 @@ var printer = {
 
 // console.log(printer.phrase);
 
-// prints a number, Fizz, Buzz or FizzBuzz
+// prints a number, Fizz, Buzz or FizzBuzz where n = max num
 var fb = function(n) {
-  if (n % 15 === 0) {
-    console.log('FizzBuzz');
-  } else if (n % 5 === 0) {
-      console.log('Buzz');
-  } else if (n % 3 === 0) {
-      console.log('Fizz');
-  } else {
-      console.log(n);
+  x = 0;
+  while (x <= n) {
+    if (x % 15 === 0) {
+      console.log('FizzBuzz');
+    } else if (x % 5 === 0) {
+        console.log('Buzz');
+    } else if (x % 3 === 0) {
+        console.log('Fizz');
+    } else {
+        console.log(x);
+    }
+    x += 1;
   }
 };
 
@@ -26,5 +30,3 @@ var age_check = function(age) {
     console.log('proceed');
   }
 };
-age_check(19);
-age_check(22);
